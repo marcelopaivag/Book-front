@@ -1,0 +1,15 @@
+import { Caroussel } from "../components/Caroussel"
+import { JumbotroN } from "../components/JumbotroN"
+import ProjectList from "../components/ProjectList"
+import { JumbotronComp } from '../components/JumbotronComp'
+
+export const Home = () => {
+  return (
+    <>
+      <Caroussel />
+      <JumbotronComp/>
+      <JumbotroN />
+      <ProjectList/>
+    </>
+  )
+}
