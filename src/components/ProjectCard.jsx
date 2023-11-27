@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 const ProjectCard = ({ project }) => {
-  const { id, image, title, description, githublink } = project;
+  const { id, image, title, description, githubLink } = project;
 
   return (
     <Card style={{ width: '18rem' }}>
@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <a href={githublink} target="_blank" rel="noopener noreferrer">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
           <Button variant="primary">Ver en GitHub</Button>
         </a>
       </Card.Body>
