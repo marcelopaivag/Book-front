@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <Container>
       <h1>Contacto</h1>
-      <p>¡Estoy emocionado de conectarme contigo! Puedes contactarme de las siguientes maneras:</p>
+      <p>¡Envíame un mensaje o hazme una preguta! Puedes contactarme de las siguientes maneras:</p>
 
       <Row>
         <Col>
