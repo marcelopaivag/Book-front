@@ -8,14 +8,14 @@ const ProjectList = () => {
   return (
     <>
       <Row><h2 className='text-center p-4'>Mis Proyectos</h2></Row>
-      <Row xs={1} sm={2} md={3} lg={4} xl={4} className="g-4">
+      <Row xs={1} sm={2} md={3} lg={4} xl={4} className="g-4 mb-3">
         {projects.map((project) => (
           <Col key={project.id}>
             <Card className='ml-5 p-4' style={{ width: '40rem' }}>
               <Card.Img variant="top" src={project.image} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
-                <Link to={`/projects/${project.id}`}>
+                <Link to={`/Book-front/projects/${project.id}`}>
                   <Button variant="dark">Ver proyecto</Button>
                 </Link>
               </Card.Body>

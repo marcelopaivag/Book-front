@@ -16,12 +16,12 @@ function App() {
       <UserProvider>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/*" element={<Navigate to='/' />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id" element={<Project />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Book-front/" element={<Home />} />
+          <Route path="/Book-front/*" element={<Navigate to='/Book-front/' />} />
+          <Route path="/Book-front/projects" element={<Projects />} />
+          <Route path="/Book-front/projects/:id" element={<Project />} />
+          <Route path="/Book-front/about" element={<About />} />
+          <Route path="/Book-front/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </UserProvider>

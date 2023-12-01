@@ -12,12 +12,12 @@ export const NavBar = () => {
           src={jumbotronImg.img4}
           height={80} />
         <Container>
-          <Navbar.Brand as={Link} to='/'>OMT FullSack Development</Navbar.Brand>
+          <Navbar.Brand as={Link} to='/Book-front/'>OMT FullSack Development</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to='/'>Inicio</Nav.Link>
-            <Nav.Link as={Link} to='/projects'>Portafolio</Nav.Link>
-            <Nav.Link as={Link} to='/about'>Acerca de mí</Nav.Link>
-            <Nav.Link as={Link} to='/contact'>Contacto</Nav.Link>
+            <Nav.Link as={Link} to='/Book-front/'>Inicio</Nav.Link>
+            <Nav.Link as={Link} to='/Book-front/projects'>Portafolio</Nav.Link>
+            <Nav.Link as={Link} to='/Book-front/about'>Acerca de mí</Nav.Link>
+            <Nav.Link as={Link} to='/Book-front/contact'>Contacto</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
