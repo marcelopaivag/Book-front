@@ -1,8 +1,13 @@
-# React + Vite
+Portafolio - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto 6 - DWFS UDD
 
-Currently, two official plugins are available:
+Portafolio de proyectos realizados durante el C8 del bootcamp de desarrollo web full stack de la Universidad del Desarrollo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+
+
